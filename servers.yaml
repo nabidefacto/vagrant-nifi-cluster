@@ -1,0 +1,19 @@
+---
+- name: nifi01
+  box: bento/centos-7.2
+  cpus: 2
+  ram: 2048
+  ip: 192.168.56.101
+  port: 10122
+- name: nifi02
+  box: bento/centos-7.2
+  cpus: 2
+  ram: 2048
+  ip: 192.168.56.102
+  port: 10222
+- name: nifi03
+  box: bento/centos-7.2
+  cpus: 2
+  ram: 2048
+  ip: 192.168.56.103
+  port: 10322
